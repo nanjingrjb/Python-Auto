@@ -13,6 +13,7 @@
 
 import os,sys
 from price_log import PriceLog
-log = '[2023-08-31T06:58:21.567891] - SALE - PRODUCT:989 - PRICE:$50.56'    
+#[<Timestamp>] - SALE - PRODUCT: <product id> - PRICE: $<price>
+log='[2023-08-31T06:58:21.567891] - SALE - PRODUCT: 568 - PRICE: $78.56'
+#log = '[2023-08-31T06:58:21.567891] - SALE - PRODUCT:989 - PRICE:$50.56'    
 PriceLog.parse(log)
-
