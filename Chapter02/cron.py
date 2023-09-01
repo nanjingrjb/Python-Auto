@@ -8,6 +8,8 @@ def main(number, other_number, output):
     result = number * other_number
     print(f'[{datetime.utcnow().isoformat()}] The result is {result}',
           file=output)
+    print(f'[{datetime.today().isoformat()}] The result is {result}',
+          file=output)
 
 
 if __name__ == '__main__':
